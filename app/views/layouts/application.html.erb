@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
   <head>
     <title>AlphaApp</title>
@@ -12,5 +12,6 @@
     <%#= render 'layouts/navigation'%>
   	<%= render 'layouts/messages'%>
     <%= yield %>
+    <%= debug(params)  if Rails.env.development? %>
   </body>
 </html>
