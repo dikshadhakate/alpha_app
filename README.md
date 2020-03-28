@@ -5,20 +5,17 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: ruby 2.6.5
 
-* System dependencies
+* Rails version: Rails 5.1.7
 
-* Configuration
+* Database: mysql
 
-* Database creation
+* How to run the test suite: rake test
 
-* Database initialization
+*Runs application locally using rails s
 
-* How to run the test suite
+* heroku deploy
+Deployed App Link: 
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://new-alpha-app.herokuapp.com
