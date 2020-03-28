@@ -1,5 +1,7 @@
 module ApplicationHelper
 
+	#whatever methods we written in this file it availble to all the views
+	
 	def gravator_for(user, options = { size: 80 })
 		gravatar_id = Digest::MD5::hexdigest(user.email.downcase) #It will fetch Image for selected Email
 		size = options[:size] #It takes  the size of the image
